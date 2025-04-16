@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio - Prajkta Pawar</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    /* [CSS remains unchanged] */
+    /* ... same styles as you shared earlier ... */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Montserrat', sans-serif;
+      color: #000;
+      scroll-behavior: smooth;
+      background: #121212;
+    }
+
+    nav {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 15px 30px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 26px;
+      color: #fff;
+      font-weight: 700;
+    }
+
+    .menu a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 25px;
+      font-size: 18px;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    .menu a:hover {
+      color: #ffd700;
+    }
+
+    section {
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .section-content {
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 40px;
+      border-radius: 15px;
+      width: 85%;
+      max-width: 1000px;
+      backdrop-filter: blur(6px);
+    }
+
+    h1, h2 {
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    ul, p {
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 1.8;
+      text-align: left;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+#home {
+  background-color: #f8bbd0; /* light pink */
+  color: #000;
+}
+
+#education {
+  background-color: #fce4ec; /* soft pink */
+  color: #000;
+}
+
+#skills {
+  background-color: #f06292; /* medium pink */
+  color: #000;
+}
+
+#projects {
+  background-color: #f48fb1; /* rich pink */
+  color: #000;
+}
+
+#experience {
+  background-color: #ff80ab; /* bright pink */
+  color: #000;
+}
+
+#contact {
+  background-color: #f3e5f5; /* lavender-pink */
+  color: #000;
+}	footer {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      font-weight: 600;
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .menu a {
+        display: block;
+        margin: 10px 0;
+      }
+
+      .section-content {
+        width: 95%;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  
+
+  <nav>
+    <div class="logo">Prajkta Pawar</div>
+    <div class="menu">
+      <a href="#home">Home</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#experience">Internships</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section id="home">
+    <div class="section-content">
+      <h1>Hi, I'm Prajkta Pawar</h1>
+      <p>Computer Science Undergraduate | Tech Enthusiast | Lifelong Learner</p>
+    </div>
+  </section>
+
+  <section id="education">
+    <div class="section-content">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>B.Tech in Computer Science</strong> – ABC Institute of Technology (2022 - Present)</li>
+        <li><strong>Higher Secondary Education</strong> – XYZ Junior College (2020 - 2022)</li>
+        <li><strong>Secondary School Certificate</strong> – LMN High School (2019 - 2020)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="section-content">
+      <h2>Technical & Soft Skills</h2>
+      <ul>
+        <li>Programming Languages: C, C++, JavaScript</li>
+        <li>Web Development: HTML, CSS, React, Node.js</li>
+        <li>Problem Solving & Logical Thinking</li>
+        <li>Team Collaboration & Communication</li>
+        <li>Tools: Git, VS Code, MySQL</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="section-content">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Portfolio Website:</strong> Personal website built using HTML, CSS, JavaScript.</li>
+        <li><strong>Todo App:</strong> React-based task manager with local storage integration.</li>
+        <li><strong>Library Management System:</strong> Python and MySQL project for book inventory handling.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="experience">
+    <div class="section-content">
+      <h2>Internships</h2>
+      <ul>
+        <li><strong>Web Development Intern</strong> – CodeVerse Pvt. Ltd. (June 2024 - Aug 2024)<br>Worked on building UI components and maintaining client websites.</li>
+        <li><strong>Campus Ambassador</strong> – Learnathon (Feb 2024 - May 2024)<br>Organized workshops and tech talks, improved event outreach.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="section-content">
+      <h2>Contact Me</h2>
+      <ul>
+        <li><strong>Phone:</strong> +91 9876543210</li>
+        <li><strong>Email:</strong> prajktapawar123@gmail.com</li>
+        <li><strong>Languages:</strong> English, Hindi</li>
+      </ul>
+      <p>I’m open to internships, projects, and tech collaborations. Let’s connect and grow together!</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Prajkta Pawar. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
